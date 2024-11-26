@@ -1,0 +1,11 @@
+CREATE
+DATABASE IF NOT EXISTS sba;
+
+USE sba;
+
+CREATE TABLE IF NOT EXISTS user
+(
+    id      VARCHAR(255) PRIMARY KEY,
+    name    VARCHAR(255),
+    balance DOUBLE
+);
