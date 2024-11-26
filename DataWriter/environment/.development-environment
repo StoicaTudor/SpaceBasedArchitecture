@@ -1,0 +1,17 @@
+KAFKA_BROKER=localhost:9092
+
+KAFKA_TOPIC=test
+KAFKA_GROUP_ID=test-group
+
+MARIADB_USER=root
+MARIADB_PASSWORD=password
+MARIADB_HOST=localhost
+MARIADB_PORT=3306
+MARIADB_DB_NAME=mydatabase
+
+MONGO_URI=mongodb://localhost:27017
+MONGO_DB=mydatabase
+MONGO_COLL=data
+
+#application related
+DATA_SUPPLY_SOURCE=mock #kafka
